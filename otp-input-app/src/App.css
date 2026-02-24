@@ -1,0 +1,58 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.phoneNumber-section{
+  h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
+
+  .phoneNumber-input{
+    margin: 5px auto;
+    padding: 10px;
+    width: 300px;
+    display: block;
+    border: 1px solid b9b9b9;
+    border-radius: 5px;
+  }
+
+  .login-btn{
+    background-color: #14553c;
+    padding: 15px;
+    color: white;
+    border: 1px solid transparent;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    &:hover{
+      background-color: #0f5a5a;
+      color: white;
+    }
+  }
+}
+
+.otp-section{
+  width: 80vw;
+  margin: auto;
+  h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+
+  .otp-input{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #7e7e7e;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+}
